@@ -1,0 +1,15 @@
+.ecommerce-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Dynamic columns */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+
+.ecommerce-grid img {
+  width: 150px; /* Set fixed width */
+  height: 200px; /* Set fixed height */
+  object-fit: cover; /* Ensure images fill the space without distortion */
+  border: 1px solid #ddd; /* Optional border for aesthetics */
+  border-radius: 8px; /* Optional rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}

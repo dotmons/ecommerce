@@ -1,0 +1,17 @@
+.favorite-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ccc; /* Default star color */
+    margin-top: 10px;
+    transition: color 0.3s;
+  }
+
+  .favorite-button.favorited {
+    color: gold; /* Star color for favorited items */
+  }
+
+  .favorite-button:focus {
+    outline: none;
+  }

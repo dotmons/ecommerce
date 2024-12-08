@@ -1,0 +1,41 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex; /* Enables horizontal alignment */
+    justify-content: space-between; /* Pushes items to the far ends */
+    align-items: center; /* Vertically centers items */
+    padding: 10px 20px; /* Adds spacing around the header */
+    background-color: #f4f4f4; /* Light gray background for visibility */
+    border-bottom: 2px solid #ddd; /* Optional: bottom border for styling */
+  }
+  
+  h2 {
+    margin: 0; /* Removes default margin */
+    color: #333; /* Text color for the heading */
+  }
+  
+  .links {
+    display: flex; /* Align links horizontally */
+    gap: 5px; /* Adds space between links */
+  }
+  
+  .links a {
+    text-decoration: none; /* Removes underline */
+    color: #007bff; /* Link color */
+    font-weight: bold;
+    margin-left: auto;
+  }
+
+  .links a + a {
+    margin-left: 15px; /* Adds spacing between multiple links */
+  }
+  
+  
+  .links a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #0056b3; /* Darker shade on hover */
+  }
